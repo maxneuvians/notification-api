@@ -24,4 +24,4 @@ jobs:
 
       - name: Build container
         run: | 
-          docker buildx build --platform linux/arm/v8 --tag test:v8 --file ci/Dockerfile.lambda
+          docker buildx build --platform linux/arm/v8 --tag test:v8 --file ci/Dockerfile.lambda .
